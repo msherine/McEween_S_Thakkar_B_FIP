@@ -1,0 +1,32 @@
+body{
+    max-width:2247px;
+    padding:1em;
+    font-family:Helvetica,Arial,sans-serif;}
+
+    header{ width: 1731px;
+        height: 103px;
+        background: #E6E6E6;
+        margin:16.125rem;
+        margin-top: 1rem;
+        width: 77%;
+        padding: 103px;
+        justify-content: space-around;
+        
+
+        
+        #beerLogo{width: 226px;
+            height: 61px;
+            left: 361px;
+            top: 82px;
+            background: #C4C4C4;}
+
+
+        
+
+
+
+    div,
+    section,
+    main,aside,
+    header,
+    footer{border:1px solid lightgray;padding:.5em;margin-bottom:1em;}
