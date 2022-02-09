@@ -1,9 +1,179 @@
-body{
-    max-width:2247px;
-    padding:1em;
-    font-family:Helvetica,Arial,sans-serif;}
+<<<<<<< Updated upstream
+=======
+@charset "UTF-8";
+/*CSS Document*/
 
-    header{ width: 1731px;
+/*HTML Selectors*/
+
+body
+{
+  max-width: 2247px;
+  padding: 1em;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: normal ;
+  color: #000;
+  background-color: #fff  ;
+}
+
+p
+{
+  line-height: 20px;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover, a:active
+{
+  font-weight: bold;
+}
+
+/* Classes*/
+
+.button
+{
+  font-size: 32px ;
+}
+
+.button:hover
+{
+  font-weight: bold;
+}
+
+/*Main Page Elements*/
+
+#siteContainer
+{
+  margin: auto; /*center container*/
+  width: 2247px;
+}
+
+#mainHeader
+{
+  margin-top: 20px ;
+  padding-bottom: 23px;
+  height: 103px ; /*static content, hard coded height*/
+  display: flex;
+  flex-direction: row;
+}
+
+#logo
+{
+  width: 226px ;
+  margin-top: 21px;
+}
+
+#beerLogo
+{
+  display: flex;
+  font-size: 32px;
+  color: #000;
+  line-height: 32px;
+}
+
+#mainNav ul
+{
+  text-transform: capitalize;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+}
+
+#mainNav
+{
+  display: block;
+  width: 1731px ;
+  background-color: #E5E5E5 ; /*color:  ;*/
+  margin-left: 250px;
+  text-align: center;
+  padding: 21px;
+  font-size: 32px ; /*fixed site so use px not % */
+  font-weight: normal ;
+}
+
+#mainNav ul li a:hover
+{
+  font-weight: bold;
+}
+
+#hero
+{
+  margin-top: 275px  ;
+  padding-bottom: 103px  ;
+  width: 2247px;
+  display: flex;
+  flex-direction: row;
+}
+
+#heroText
+{
+  width: 993px  ;
+}
+
+#heroText h1
+{
+  font-size: 60px ;
+  margin-top: 60px ;
+  margin-bottom: 60px ;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 69px ;
+}
+
+#heroText h3
+{
+  font-size: 32px ;
+  line-height: 42px;
+  margin-bottom: 60px;
+}
+
+#heroImage
+{
+  margin-left: auto;
+  width: 2247px ;
+}
+
+#beerFlavours
+{
+
+}
+
+#order
+{
+
+}
+
+#map
+{
+
+}
+
+#mainFooter
+{
+  margin-top: 70px ;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row ;
+  width: 2247px;
+  height: 352px;
+
+}
+
+#footerNav
+{
+  width: 2247px ;
+  height: 352px ;
+  text-transform: capitalize;
+}
+
+#footerNav ul li
+{
+  display: flex ;
+  font-size: 32px ;
+  font-weight: normal ;
+}
+    /*header{ width: 1731px;
         height: 103px;
         background: #E6E6E6;
         margin:16.125rem;
@@ -11,22 +181,12 @@ body{
         width: 77%;
         padding: 103px;
         justify-content: space-around;
-        
 
-        
-        #beerLogo{width: 226px;
+
+
+        beerLogo{width: 226px;
             height: 61px;
             left: 361px;
             top: 82px;
             background: #C4C4C4;}
-
-
-        
-
-
-
-    div,
-    section,
-    main,aside,
-    header,
-    footer{border:1px solid lightgray;padding:.5em;margin-bottom:1em;}
+>>>>>>> Stashed changes
