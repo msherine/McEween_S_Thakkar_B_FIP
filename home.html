@@ -2,104 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Web Page Scaffold</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--- the reset css needs to be linked before main.css file --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>HomePage</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
   </head>
   <body>
-    <!-- Content goes here -->
-    <div id="siteContainer">
-    <header id="mainHeader">
+    <h1 class="hidden">HomePage</h1>
+    <div class="sitecontainer">
+      <!-- Main nav start -->
+      <header class="mainHeader">
+        <nav class="mainNavbar">
+            <div class="logo">
+              <img src="images/white_logo.png" alt="Hawaiian Tropic Logo">
+            </div>
+            <h2 class="hidden"> Main Nav </h2>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="lotions.html">Lotions</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="advertisement.html">Avertisements</a></li>
+              <li><a href="about.html">About Us</a></li>
+            </ul>
+            <img id="hamburgerMenu" src="images/ham_menu.svg" alt="hamburger menu">
+          </nav>
+      </header>
 
-      <div id="logo">
-        <span id="beerLogo">Logo</span>
-        <nav id="mainNav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="beers.html">Beers</a></li>
-            <li><a href="#">Locate Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </nav> <!--end mainNav-->
+      <!-- Main nav end -->
+      <main>
+        <section class="hero">
+          <h2 class="hidden">Hero Image</h2>
+          <div class="heroContent">
+            <img src="images/hero_img.png" alt="Hawaiian Tropic Zest Sunscreen Lotion on Beach">
+            <div id="heroText">
+              <h1>SUNCARE IS THE FIRST STEP TO SKINCARE </h1>
+              <a href="#">Shop here</a>
+            </div>
+          </div>
+        </section>
+      </main>
 
-      </div> <!--end logo-->
+      <!-- Footer start-->
 
-    </header> <!--end mainHeader-->
-
-    <section id="hero">
-
-      <img id= "heroImage" src="#" alt="Hero Image"> <!--end hero image here-->
-
-      <div id="heroText">
-        <h1>Hawaiian Tropic Sheer Touch Brewed Beer</h1>
-        <h3>Shock top zest is a new light wheat beer packed with citrus flavour, 90 calories and 3.1 carbs. Shock Top Zest is brewed with real orange and lemon peels making for a light and refreshing choice to enjoy with friends.</h3>
-        <a href="#" class="button">Shop beer now!</a>
-      </div> <!--end heroText here-->
-
-    </section> <!--end hero section here-->
-
-    <section id="beerFlavours">
-
-      <div id="beerFlavour1">
-        <img src="#" alt="Beer 1 Image">
-        <h3>Beer name 1</h3>
-        <p>Alcohol content</p>
-      </div> <!--end beerFlavour1 here-->
-
-      <div id="beerFlavour2">
-        <img src="#" alt="Beer 2 Image">
-        <h3>Beer name 2</h3>
-        <p>Alcohol content</p>
-      </div> <!--end beerFlavour2 here-->
-
-    </section> <!--end beerFlavours section here-->
-
-    <section id="order">
-
-      <img src="#" alt="Order Promo Image">
-      <div id="orderPromo">
-        <h1>Out of Shock Top?</h1>
-        <h3>So your friends forgot it's BYOB. No worries - you can now order Shock Top online and have it delivered straight to your door.</h3>
-        <a href="#" class="button">Check couriers for availability!</a>
-      </div>
-
-    </section> <!--end order section here-->
-
-    <section id="map">
-
-      <div id="mapText">
-        <h3>Feel free to drop by at our stores.</h3>
-        <p>Visit our stores for getting exclusive in-store offers!</p>
-      </div> <!--end mapText here-->
-
-      <span id="mapLayout"> Map goes here! </span> <!--end mapLayout here-->
-
-    </section> <!--end map section here-->
-
-    <footer id="mainFooter">
-
-      <div id="footerLogo">
-
-        <span id="footerBeerLogo">Logo</span>
-        <nav id="footerNav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Beers</a></li>
-            <li><a href="#">Locate Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </nav> <!--end footerNav-->
-
-      </div> <!--end logo-->
-      <div id="copyRight"> Copyright Info </div> <!--end copyRight here-->
-    </footer> <!--end mainFooter here-->
-
-    </div> <!-- end siteContainer here -->
-
+      <footer class="mainFooter">
+        <h2 class="hidden">Footer</h2>
+        <div class="footerLeft">
+          <div class="logo">
+            <img src="images/white_logo.png" alt="Footer Logo">
+          </div>
+          <p>At Hawaiian Tropic® we make skin-loving, Hawaiian-inspired suncare products to help enhance the beauty in yourself and the world every day. We believe the Hawaiian lifestyle and values hold the key to living a beautiful, well-intentioned life, which is why we proudly make products that are Reef Friendly and Cruelty-Free.</p>
+          <div>
+        </div>
+        
+        </div>
+        <div class="footerRight">
+          <nav class="footerNav">
+            <h2 class="hidden"> Footer Nav </h2>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="lotions.html">Lotions</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="advertisement.html">Avertisements</a></li>
+              <li><a href="about.html">About Us</a></li>
+            </ul>
+          </nav>
+          <div class="sns">
+            <ul>
+              <a href="https://www.facebook.com/"><img src="images/Facebook.svg" alt="facebook"></a>
+              <a href="https://www.twitter.com/"><img src="images/Twitter.svg" alt="twitter"></a>
+              <a href="https://www.instagram.com/"><img src="images/Instagram.svg" alt="instagram"></a>
+              <a href="https://www.linkedin.com/"><img src="images/LinkedIn.svg" alt="linkedin"></a>
+            </ul>
+          </div>  
+      </footer>
+      <!-- Footer end -->
+    </div>
     <script src="js/main.js"></script>
-  </body>
+  </section>
 </html>
