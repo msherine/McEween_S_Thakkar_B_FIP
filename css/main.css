@@ -115,7 +115,28 @@ a
   justify-content: center; 
 }
 
+.productDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
 
+.productDetails img{
+  height: 300px;
+}
+
+.benefits
+{
+  background: url(../images/third_section_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.benefits p
+{
+  color: #313131;
+}
 
 
 /*------ css footer ------*/
