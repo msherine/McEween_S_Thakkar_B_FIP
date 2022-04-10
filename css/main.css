@@ -50,25 +50,35 @@ a:hover, a:active
 
 #mainHeader
 {
-  margin-top: 20px ;
-  padding-bottom: 23px;
-  height: 103px ; /*static content, hard coded height*/
-  display: flex;
-  flex-direction: row;
+    display: block;
+    width: 1731px ;
+    background-color: #E5E5E5 ; /*color:  ;*/
+    margin-left: 250px;
+    margin-top: 20px ;
+    padding-left: 103px;
+    padding-right: 103px;
+    height: 103px ; /*static content, hard coded height*/
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo
 {
   width: 226px ;
   margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 #beerLogo
 {
   display: flex;
-  font-size: 32px;
-  color: #000;
-  line-height: 32px;
+  position: absolute;
+  width: 226px;
+  height: 61px;
+  left: 361px;
+  top: 82px;
+
+background: #C4C4C4;
 }
 
 #mainNav ul
@@ -76,15 +86,11 @@ a:hover, a:active
   text-transform: capitalize;
   margin-top: 36px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly | end;
 }
 
 #mainNav
 {
-  display: block;
-  width: 1731px ;
-  background-color: #E5E5E5 ; /*color:  ;*/
-  margin-left: 250px;
   text-align: center;
   padding: 21px;
   font-size: 32px ; /*fixed site so use px not % */
